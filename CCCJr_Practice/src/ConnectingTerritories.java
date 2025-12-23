@@ -1,17 +1,9 @@
 import java.util.Scanner;
 
-public class connectingTerritories{
+public class ConnectingTerritories {
     public static void main (String [] args){
         Scanner scanner = new Scanner (System.in);
-        /*int length;
-        int max;
-        length = scanner.nextInt();
-        max = scanner.nextInt();
-        int[] array = new int[length];
-        for(int i = 0; i < length; i++){
-            array[i] = i % max + 1;
-            System.out.println(array[i] + " ");
-        } */
+
         int C;
         int R;
         int M;
