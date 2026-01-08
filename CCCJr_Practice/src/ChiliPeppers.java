@@ -10,25 +10,32 @@ public class ChiliPeppers {
 
         while (j < i){
             String pepper = scanner.next();
-            if("Poblano".equals(pepper) ){
-                Chili += 1500;
-                j++;
+            switch(pepper){
+                case "Poblano" -> {
+                    Chili += 1500;
+                    j++;
+                }
+                case "Mirasol" -> {
+                    Chili += 6000;
+                    j++;
+                }
+                case "Serrano" -> {
+                    Chili += 15500;
+                    j++;
+                }
+                case "Cayenne" -> {
+                    Chili += 40000;
+                    j++;
+                }
+                case "Thai" -> {
+                    Chili += 75000;
+                    j++;
+                }
+                case "Habanero" -> {
+                    Chili += 125000;
+                    j++;
+                }
 
-            }else if("Mirasol".equals(pepper)){
-                Chili += 6000;
-                j++;
-            }else if("Serrano".equals(pepper)){
-                Chili += 15500;
-                j++;
-            }else if("Cayenne".equals(pepper)){
-                Chili += 40000;
-                j++;
-            }else if( "Thai".equals(pepper)){
-                Chili += 75000;
-                j++;
-            }else if( "Habanero".equals(pepper)){
-                Chili += 125000;
-                j++;
             }
 
         }
