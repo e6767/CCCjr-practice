@@ -17,10 +17,9 @@ public class TelemarketerOrNot {
                 sameNumber = number;
             }
             if(i == 2 && number == sameNumber){
-                telemarketer = true;
                 numberSame = true;
             }
-            else{
+            else if(i == 2 && number != sameNumber){
                 telemarketer = false;
             }
             if (i == 3 && (number == 8 || number == 9)){
